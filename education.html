@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Education</title>
+        <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <meta http-eqiv="X-UA-Compatible" content="ie-edge">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        
+</head>
+<style>
+ h2
+{
+ text-align:center;
+  margin-top:140px;
+  text-transform: uppercase;
+  color:white;
+}
+
+   html,body { 
+  background: url(images/orange.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	 Hide table headers (but not display: none;, for accessibility) 
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+</style>
+<body>
+
+     <div class="container">
+  <h2><b>My Education</b></h2>  
+             
+  <table class="table table-light table-hover">
+    <thead  class="thead-dark">
+      <tr>
+        <th style="width:30%">Qualification</th>
+        <th style="width:50%">Institution</th>
+        <th  style="width:20%">Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Graduation(2021)</td>
+        <td>Lovely professional University,punjab</td>
+        <td>8.5 CGPA</td>
+      </tr>
+      <tr>
+        <td>XII(2017)</td>
+        <td>Sri Chaithanya Junior College,Andhra pradesh</td>
+        <td>98.5%</td>
+      </tr>
+      <tr>
+        <td>X(2015)</td>
+       <td>St.Marys Public School,Andhra Pradesh</td>
+        <td>9.7 GPA</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+</body>
+</html>
